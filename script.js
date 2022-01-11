@@ -3,6 +3,9 @@ const submitButton = document.getElementById('submit-btn');
 const userEmail = document.querySelector('#email');
 const userPassword = document.querySelector('#password');
 const loginButton = document.querySelector('#login-button');
+const counterText = document.querySelector('#counter');
+let counter = 500;
+
 
 submitButton.disabled = true;
 
@@ -25,3 +28,7 @@ function enableDisableSubmit() {
 }
 
 agreement.addEventListener('click', enableDisableSubmit);
+
+document.getElementById('textarea').addEventListener('keyup', function () {
+  counterText.innerText = counter - document.getElementById('textarea').textLength;
+});
