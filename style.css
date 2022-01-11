@@ -1,8 +1,10 @@
 #evaluation-form {
-    display: flex;
-    width: 675px;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
 
 main {
-    display: flex;
+  display: flex;
 }
+
