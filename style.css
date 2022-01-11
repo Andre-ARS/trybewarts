@@ -31,3 +31,14 @@ main {
 .family-container {
   display: flex;
   flex-direction: column;}  
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 16px;
+  font-size: 16px;
+  background-color: rgb(47, 47, 51);
+  color: #fff;}
+ 
