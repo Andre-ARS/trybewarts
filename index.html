@@ -8,6 +8,15 @@
     <title>Trybewarts</title>
 </head>
 <body>
+    <header class="header">
+        <img src="images/trybewarts-header-logo.svg" alt="logo da TrybeWarts" class="trybewarts-header-logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" method="get" class="trybewarts-login">
+            <input type="email" name="email" id="email" value="" placeholder="Email">
+            <input type="password" name="password" id="password" value="" placeholder="Senha">
+            <button type="submit" id="login-button">Entrar</button>
+        </form>
+    </header>
     <main>
         <form id="evaluation-form" action="#" method="get">
             <div>
@@ -15,6 +24,14 @@
                 <input id="input-lastname" type="text" placeholder="Sobrenome">
             </div>
             <input id="input-email" type="text" placeholder="Email">
+            <div>
+                <select name="house" id="house">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
             <div>
                 <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
                 <div>
@@ -39,6 +56,21 @@
                 <input type="radio" name="rate" id="" value="9">9
                 <input type="radio" name="rate" id="" value="10">10
             </div>
+            <div class="family-container">
+                <p id="label-family">Qual sua família?</p>
+                <div>
+                <input type="radio" name="family" value="Frontend" id="frontend">
+                <label for="frontend">Frontend</label>
+                </div>
+                <div>
+                <input type="radio" name="family" value="Backend" id="backend">
+                <label for="backend">Backend</label>
+                </div>
+                <div>
+                <input type="radio" name="family" value="FullStack" id="fullstack">
+                <label for="fullstack">FullStack</label>
+                </div>
+            </div>
             <div>
                 <label class="textarea" for="">Deixe seu comentário:</label>
                 <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
@@ -51,7 +83,11 @@
                 <button id="submit-btn" type="submit">Enviar</button>
             </div>
         </form>
+        <img src="images/trybewarts-colored.svg" alt="logo trybewarts colorida" id="trybewarts-forms-logo">
     </main>
+    <footer class="footer">
+        <h3>Direitos reservados à Trybewarts©</h3>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
