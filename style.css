@@ -1,11 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;    
-}
+  box-sizing: border-box;}
 
 .header {
   background-color: rgb(50, 167, 145);
-  height: 50px;
+  height: 100px;
   display: flex;
 }
