@@ -27,4 +27,7 @@
 
 main {
   display: flex;}  
-  
+ 
+.family-container {
+  display: flex;
+  flex-direction: column;}  
