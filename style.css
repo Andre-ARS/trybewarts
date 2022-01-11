@@ -7,9 +7,19 @@
   background-color: rgb(50, 167, 145);
   height: 100px;
   display: flex;
-  justify-content: space-between;}
+  justify-content: space-between;
+  align-items: center;}
 
-.trybewarts-login {
+.header .trybewarts-header-logo {  
+  height: 90px;}
+
+.header #trybewarts-header-title {
+  font-size: 40px;
+  color: #fff;}
+
+.header .trybewarts-login {
   display: flex;
   align-items: center;
   justify-content: space-between;}
+
+  
