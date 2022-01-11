@@ -4,6 +4,8 @@ const userEmail = document.querySelector('#email');
 const userPassword = document.querySelector('#password');
 const loginButton = document.querySelector('#login-button');
 const form = document.getElementById('evaluation-form');
+const counterText = document.querySelector('#counter');
+const counter = 500;
 
 submitButton.disabled = true;
 
@@ -96,3 +98,9 @@ function renderData(event) {
 }
 
 submitButton.addEventListener('click', renderData);
+
+function count() {
+  counterText.innerText = counter - document.getElementById('textarea').textLength;
+}
+
+document.getElementById('textarea').addEventListener('keyup', count);
