@@ -99,6 +99,7 @@ function renderData(event) {
 
 submitButton.addEventListener('click', renderData);
 
+// Requisito 3
 function count() {
   counterText.innerText = counter - document.getElementById('textarea').textLength;
 }
