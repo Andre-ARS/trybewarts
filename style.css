@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+}
+
 body {
   background-color: rgb(212, 223, 235);
 }
@@ -61,7 +65,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .container img {
