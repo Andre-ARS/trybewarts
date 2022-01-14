@@ -17,17 +17,17 @@
             <button type="submit" id="login-button" class="boder-input">Entrar</button>
         </form>
     </header>
-    <main>
+    <main class="b-m3">
         <div class="main-container container">
             <form id="evaluation-form" action="#" method="get">
-                <div>
+                <div id="title">
                     <h2>Formulário de Registro</h2>
                 </div>
-                <div class="container">
+                <div class="container b-m2">
                     <input id="input-name" class="boder-input items-m" type="text" placeholder="Nome">
                     <input id="input-lastname" class="boder-input items-m" type="text" placeholder="Sobrenome">
                 </div>
-                <div class="container">
+                <div class="container b-m3">
                     <input id="input-email" class="boder-input items-m" type="text" placeholder="Email">
                     <select name="house" id="house" class="boder-input items-m">
                         <option value="">Escolha a sua Casa</option>
@@ -37,7 +37,7 @@
                         <option value="Pytherina" id="pytherina-house">Pytherina</option>
                     </select>
                 </div>
-                <div class="container">
+                <div class="container b-m3">
                     <div class="family-container items-m">
                         <p id="label-family">Qual sua família?</p>
                         <div>
@@ -56,40 +56,72 @@
                     <div class="items-m">
                         <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
                         <div class="subject-container">
-                            <input class="subject" type="checkbox" name="subject" value="HoFs">HoFs
-                            <input class="subject" type="checkbox" name="subject" value="Jest">Jest
-                            <input class="subject" type="checkbox" name="subject" value="Promises">Promises
-                            <input class="subject" type="checkbox" name="subject" value="React">React
-                            <input class="subject" type="checkbox" name="subject" value="SQL">SQL
-                            <input class="subject" type="checkbox" name="subject" value="Python">Python
+                            <div>
+                                <input class="subject" id="hofs" type="checkbox" name="subject" value="HoFs"><label for="hofs">HoFs</label>
+                            </div>
+                            <div>
+                                <input class="subject" id="jest" type="checkbox" name="subject" value="Jest"><label for="jest">Jest</label>
+                            </div>
+                            <div>
+                                <input class="subject" id="promises" type="checkbox" name="subject" value="Promises"><label for="promises">Promises</label>
+                            </div>
+                            <div>
+                                <input class="subject" id="react" type="checkbox" name="subject" value="React"><label for="react">React</label>
+                            </div>
+                            <div>
+                                <input class="subject" id="sql" type="checkbox" name="subject" value="SQL"><label for="sql">SQL</label>
+                            </div>
+                            <div>
+                                <input class="subject" id="python" type="checkbox" name="subject" value="Python"><label for="python">Python</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="container b-m3">
                     <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
-                    <input type="radio" name="rate" value="1">1
-                    <input type="radio" name="rate" value="2">2
-                    <input type="radio" name="rate" value="3">3
-                    <input type="radio" name="rate" value="4">4
-                    <input type="radio" name="rate" value="5">5
-                    <input type="radio" name="rate" value="6">6
-                    <input type="radio" name="rate" value="7">7
-                    <input type="radio" name="rate" value="8">8
-                    <input type="radio" name="rate" value="9">9
-                    <input type="radio" name="rate" value="10">10
+                    <div>
+                        <input type="radio" name="rate" value="1">1
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="2">2
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="3">3
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="4">4
+                    </div>     
+                    <div>
+                        <input type="radio" name="rate" value="5">5
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="6">6
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="7">7
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="8">8
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="9">9
+                    </div>
+                    <div>
+                        <input type="radio" name="rate" value="10">10
+                    </div>
                 </div>
-                <div class="container column">
+                <div class="container column b-m3">
                     <label class="textarea" for="">Deixe seu comentário:</label>
                     <textarea name="" id="textarea" class="boder-input items-l" cols="30" rows="5" maxlength="500"></textarea>
                     <div>
                         <p id="counter">500</p>
                     </div>
                 </div>
-                <div>
+                <div class="b-m3">
                     <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
                     <input type="checkbox" name="" id="agreement" >
                 </div>
-                <div>
+                <div class="b-m3">
                     <button id="submit-btn" class="boder-input items-l" type="submit">Enviar</button>
                 </div>
             </form>
