@@ -64,6 +64,7 @@ body {
 .family-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .container {
@@ -83,10 +84,6 @@ body {
   justify-content: space-between;
   align-items: center;
   align-content: space-around;
-}
-
-.family-container {
-  justify-content: space-around;
 }
 
 .b-m2 {
